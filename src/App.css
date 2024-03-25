@@ -1,0 +1,95 @@
+.App h1{
+  Color:blue;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.App h2{
+  Color:rgb(78, 222, 78);
+  text-align: center;
+}
+.App nav{
+  background-color: yellow;
+  min-height: 50px;
+}
+.App .heart{
+  margin-left: 42%;
+}
+/* .App .cat{
+  text-align:center;
+} */
+.App body{
+background-image: url(https://media.gettyimages.com/id/1208790368/photo/healthy-fresh-fruits-and-vegetables-background.jpg?s=612x612&w=0&k=20&c=0TnVfYOk8VkYEvEDTHlLtXDbKUg4sjbiI5Gfb9GfKjo=) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/* .App .Name1{
+  font-size: larger;
+} */
+/* .App title h1{
+  font-size: 30px;
+} */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+/* h1{
+  font-size: 50px;
+  color:rgb(248, 96, 8);
+}
+.App {
+  text-align: center;
+
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+input{
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+button {
+  width: fit-content;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: hsl(220, 72%, 11%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
