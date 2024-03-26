@@ -1,12 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 
 nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    /* background-color: red; */
 }
 
 nav .link{
@@ -14,4 +15,5 @@ nav .link{
     font-weight: bold;
     color: blue;
     text-shadow: white 1px 0 4px;
+    text-decoration: none;
 }

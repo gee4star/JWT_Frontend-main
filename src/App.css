@@ -3,12 +3,25 @@
   font-size: 60px;
   text-align: center;
   font-weight: bold;
-  text-shadow: 4px;
+  text-shadow:yellow 4px 0 7px;
 }
 .App h2{
   Color:rgb(78, 222, 78);
   text-align: center;
+  font-size: 30px;
 }
+
+.fruits{
+  height: 390px;
+  width: 900px;
+  padding-top: 00px;
+  display: flex;
+  /* display: block;
+  width: 322px; */
+
+}
+
+
 .App nav{
   background-color: yellow;
   min-height: 50px;
@@ -16,14 +29,18 @@
 .App .heart{
   margin-left: 42%;
 }
+.fruits{
+  margin: auto;
+}
 /* .App .cat{
   text-align:center;
 } */
-.App body{
-background-image: url(https://media.gettyimages.com/id/1208790368/photo/healthy-fresh-fruits-and-vegetables-background.jpg?s=612x612&w=0&k=20&c=0TnVfYOk8VkYEvEDTHlLtXDbKUg4sjbiI5Gfb9GfKjo=) ;
+.App {
+/* background-image: url(https://media.gettyimages.com/id/1208790368/photo/healthy-fresh-fruits-and-vegetables-background.jpg?s=612x612&w=0&k=20&c=0TnVfYOk8VkYEvEDTHlLtXDbKUg4sjbiI5Gfb9GfKjo=) ; */
 background-repeat: no-repeat;
 background-size: cover;
-
+height: 800px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .App .Name1{
