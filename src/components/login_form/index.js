@@ -55,10 +55,11 @@ const LoginForm = ({ setNewUser }) => {
           }}
         />
         <button type='submit'>Log In</button>
-      </form>
-      <p>
+        <p>
         Dont have an account? <button onClick={handleClick}>Sign Up</button>
-      </p>
+      </p> 
+      </form>
+     
     </div>
   );
 };

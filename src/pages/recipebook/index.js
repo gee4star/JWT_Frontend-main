@@ -18,10 +18,9 @@ const RecipeBook = () => {
       <h1>Sample Recipes</h1>
       { recipes.map(recipe => (
         <div key={recipe.id}>
-          <h3> {recipe.title}</h3>
-          <img src={recipe.image}/><br></br>
-          <div dangerouslySetInnerHTML={{ __html: recipe.summary }}></div>
-          {/* {recipe.summary} */}
+          <h3 style={{textAlign: "center"}}> {recipe.title}</h3>
+          <img style={{marginLeft: "680px"}} src={recipe.image}/><br></br>
+          <div style={{marginLeft:"500px",marginRight:"500px" }} dangerouslySetInnerHTML={{ __html: recipe.summary }} ></div>
         </div>
       ))}
     </div>

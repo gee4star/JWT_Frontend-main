@@ -26,6 +26,30 @@
   background-color: yellow;
   min-height: 50px;
 }
+.App nav .link{
+  position: relative;
+}
+
+.App nav .link:hover {
+  color: lightskyblue;
+
+}
+
+.App nav .link::after {
+  content:'';
+  height: 3px;
+  width: 100%;
+  background: blue;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  opacity: 0;
+  transition: all 0.5s;
+
+
+}
+
 .App .heart{
   margin-left: 42%;
 }

@@ -12,6 +12,7 @@ nav {
 
 nav .link{
     margin-top: 15px;
+    font-size: 22px;
     font-weight: bold;
     color: blue;
     text-shadow: white 1px 0 4px;
